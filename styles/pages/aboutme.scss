@@ -10,4 +10,28 @@ main {
     background-color: black;
     padding-bottom: 10px;
     border: 1px solid white;
+
+    .aboutmebody {
+        p {
+            color: white;
+            margin: 5px;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        .aboutmebody {
+            width: 50%;
+            font-size: 28px;
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        .aboutmebody {
+            font-size: 30px;
+        }
+    }
 }
