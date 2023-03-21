@@ -1,0 +1,27 @@
+@import "../defaults/color";
+@import "../components/header";
+@import "../components/footer";
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    color: white;
+
+    .academics {
+        h1 {
+            color: white;
+        }
+        p {
+            color: white;
+        }
+    }
+
+    .skills {
+        justify-content: center;
+    }
+}

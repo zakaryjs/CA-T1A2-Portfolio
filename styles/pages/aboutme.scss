@@ -11,27 +11,54 @@ main {
     padding-bottom: 10px;
     border: 1px solid white;
 
-    .aboutmebody {
+    .twocolumn {
         p {
             color: white;
             margin: 5px;
+        }
+
+        img {
+            padding: 5px;
+            width: 50%;
+            height: auto;
+            border-radius: 50%;
         }
     }
 }
 
 @media screen and (min-width: 600px) {
     main {
-        .aboutmebody {
-            width: 50%;
-            font-size: 28px;
+        .twocolumn {
+            p {
+                font-size: 24px;
+                padding: 15px;
+            }
         }
     }
 }
 
 @media screen and (min-width: 900px) {
     main {
-        .aboutmebody {
-            font-size: 30px;
+        column-count: 2;
+        
+        
+            .twocolumn {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                p {
+                    padding: 20px;
+                    font-size: 30px;
+                    color: white;
+                }
+
+                img {
+                    width: 50%;
+                    height: auto;
+                    border-radius: 50%;
+                    margin-top: 50px;
+                }
+            }
         }
+        
     }
-}
