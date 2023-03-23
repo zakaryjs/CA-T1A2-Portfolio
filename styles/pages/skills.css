@@ -97,7 +97,26 @@ main {
   background-color: black;
   padding-bottom: 10px;
   border: 1px solid white;
+}
+main .skillstext p {
+  padding: 20px;
   color: white;
+}
+main .skillstext h1 {
+  color: white;
+}
+main .skillstext img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+main a button {
+  font-size: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ADD8E6 !important;
 }
 main .academics h1 {
   color: white;
@@ -106,5 +125,52 @@ main .academics p {
   color: white;
 }
 main .skills {
-  justify-content: center;
+  color: white;
+}
+main .hobbies {
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  main .skillstext p {
+    font-size: 24px;
+  }
+  main .skillstext img {
+    border-radius: 30%;
+  }
+  main a {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 900px) {
+  main {
+    -moz-column-count: 2;
+         column-count: 2;
+  }
+  main .skillstext {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  main .skillstext p {
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+  }
+  main .skillstext h1 {
+    color: white;
+  }
+  main .skillstext img {
+    width: 50%;
+    height: auto;
+    border-radius: 20%;
+    margin-top: 30%;
+  }
+  a button {
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ADD8E6 !important;
+  }
 }/*# sourceMappingURL=skills.css.map */

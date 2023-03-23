@@ -10,7 +10,36 @@ main {
     background-color: black;
     padding-bottom: 10px;
     border: 1px solid white;
-    color: white;
+
+    .skillstext {
+
+        p {
+            padding: 20px;
+            color: white;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        img {
+            width: 50%;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 5%;
+        }
+    }
+
+    a {
+        button {
+            font-size: 20px;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: #ADD8E6 !important;
+        }
+    }
+    
 
     .academics {
         h1 {
@@ -22,6 +51,73 @@ main {
     }
 
     .skills {
-        justify-content: center;
+        color: white;
+    }
+
+    .hobbies {
+        color: white;
     }
 }
+
+
+@media screen and (min-width: 600px) {
+    main {
+        .skillstext {
+            p {
+                font-size: 24px;
+            }
+
+            img {
+                border-radius: 30%;
+            }
+        }
+
+        a {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+}
+    }
+
+
+
+
+
+@media screen and (min-width: 900px) {
+    main {
+        column-count: 2;
+        
+        
+            .skillstext {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                p {
+                    padding: 20px;
+                    font-size: 30px;
+                    color: white;
+                }
+
+                h1 {
+                    color: white;
+                }
+
+                img {
+                    width: 50%;
+                    height: auto;
+                    border-radius: 20%;
+                    margin-top: 30%;
+                }
+            }
+        }
+        
+        a {
+            button {
+                border-radius: 8px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                background-color: #ADD8E6 !important;
+            }
+        }
+    }
