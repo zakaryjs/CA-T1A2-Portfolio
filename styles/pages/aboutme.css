@@ -101,6 +101,7 @@ main {
 main .twocolumn p {
   color: white;
   margin: 5px;
+  margin-top: 20px;
 }
 main .twocolumn img {
   padding: 5px;
