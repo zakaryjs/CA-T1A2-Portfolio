@@ -100,6 +100,7 @@ main {
 }
 main .buttons .aboutbutton {
   color: black;
+  border-radius: 8px;
   background-color: #FFFBC8 !important;
   margin: 20px;
   border: 2px solid white;
@@ -107,6 +108,7 @@ main .buttons .aboutbutton {
 }
 main .buttons .skillsbutton {
   color: black;
+  border-radius: 8px;
   background-color: #ADD8E6 !important;
   margin: 20px;
   border: 2px solid white;
@@ -114,6 +116,7 @@ main .buttons .skillsbutton {
 }
 main .buttons .portfoliobutton {
   color: black;
+  border-radius: 8px;
   background-color: #CBC3E3 !important;
   margin: 20px;
   border: 2px solid white;
