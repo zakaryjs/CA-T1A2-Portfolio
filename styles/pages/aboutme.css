@@ -100,6 +100,10 @@ main {
   padding-bottom: 10px;
   border: 1px solid white;
 }
+main h1 {
+  color: white;
+  text-decoration: underline;
+}
 main .twocolumn p {
   color: white;
   margin: 5px;
@@ -113,6 +117,9 @@ main .twocolumn img {
 }
 
 @media screen and (min-width: 600px) {
+  main h1 {
+    font-size: 32px;
+  }
   main .twocolumn p {
     font-size: 24px;
     padding: 15px;

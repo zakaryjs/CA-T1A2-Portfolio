@@ -11,6 +11,12 @@ main {
     padding-bottom: 10px;
     border: 1px solid white;
 
+    h1 {
+        color: white;
+        text-decoration: underline;
+        
+    }
+
     .twocolumn {
         p {
             color: white;
@@ -29,6 +35,10 @@ main {
 
 @media screen and (min-width: 600px) {
     main {
+
+        h1 {
+            font-size: 32px;
+        }
         .twocolumn {
             p {
                 font-size: 24px;

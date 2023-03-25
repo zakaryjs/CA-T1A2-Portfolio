@@ -31,36 +31,36 @@ main {
 }
 
 @media screen and (min-width: 600px) {
-    h2 {
+    .githubonpage {
+        h2 {
         font-size: 34px;
         text-decoration: underline;
-    }
-
-    h3 {
-        font-size: 28px;
-    }
-
-    .githubprojects {
-        a {
-            font-size: 24px;
         }
     }
 
-    p {
-        font-size: 20px;
+    .githubprojects {
+        h3 {
+            font-size: 28px;
+        }
+
+        a {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 20px;
+        }
     }
 }
 
 @media screen and (min-width: 900px) {
-
     .githubprojects {
         a {
             font-size: 26px;
         }
-    }
 
-
-    p {
-        font-size: 24px
+        p {
+            font-size: 24px;
+        }
     }
 }

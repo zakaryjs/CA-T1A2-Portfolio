@@ -11,6 +11,11 @@ main {
     padding-bottom: 10px;
     border: 1px solid white;
 
+    h1 {
+        color: white;
+        text-decoration: underline;
+    }
+
     .skillstext {
 
         p {
@@ -73,9 +78,12 @@ main {
         }
 
         a {
-            font-size: 20px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            button {
+                font-size: 24px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            
         }
 }
     }
