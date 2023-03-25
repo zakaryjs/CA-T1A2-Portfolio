@@ -115,6 +115,11 @@ main img {
   main h1 {
     font-size: 32px;
   }
+  main h2 {
+    font-size: 26px;
+    font-style: italic;
+    text-decoration: underline;
+  }
   main p {
     font-size: 28px;
     margin: 15px;

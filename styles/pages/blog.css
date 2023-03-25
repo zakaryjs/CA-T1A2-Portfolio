@@ -155,11 +155,19 @@ main section .blogpost5 img {
   .blogpost1 h3 {
     font-size: 28px;
   }
+  .blogpost1 h4 {
+    font-size: 26px;
+    font-style: italic;
+  }
   .blogpost1 p {
     font-size: 22px;
   }
   .blogpost2 h3 {
     font-size: 28px;
+  }
+  .blogpost2 h4 {
+    font-size: 26px;
+    font-style: italic;
   }
   .blogpost2 p {
     font-size: 22px;
@@ -167,17 +175,29 @@ main section .blogpost5 img {
   .blogpost3 h3 {
     font-size: 28px;
   }
+  .blogpost3 h4 {
+    font-size: 26px;
+    font-style: italic;
+  }
   .blogpost3 p {
     font-size: 22px;
   }
   .blogpost4 h3 {
     font-size: 28px;
   }
+  .blogpost4 h4 {
+    font-size: 26px;
+    font-style: italic;
+  }
   .blogpost4 p {
     font-size: 22px;
   }
   .blogpost5 h3 {
     font-size: 28px;
+  }
+  .blogpost5 h4 {
+    font-size: 26px;
+    font-style: italic;
   }
   .blogpost5 p {
     font-size: 22px;
