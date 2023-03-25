@@ -69,6 +69,8 @@ footer .socials {
 }
 footer .socials a {
   color: #F9F6EE;
+  text-decoration: none;
+  font-weight: bold;
 }
 footer .copyright {
   color: #F9F6EE;
@@ -149,6 +151,13 @@ main .hobbies {
     -moz-column-count: 2;
          column-count: 2;
   }
+  main a button {
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    background-color: #ADD8E6 !important;
+  }
   main .skillstext {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -166,12 +175,5 @@ main .hobbies {
     height: auto;
     border-radius: 20%;
     margin-top: 30%;
-  }
-  main a button {
-    border-radius: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 28px;
-    background-color: #ADD8E6 !important;
   }
 }/*# sourceMappingURL=skills.css.map */

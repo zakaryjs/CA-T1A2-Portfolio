@@ -69,6 +69,8 @@ footer .socials {
 }
 footer .socials a {
   color: #F9F6EE;
+  text-decoration: none;
+  font-weight: bold;
 }
 footer .copyright {
   color: #F9F6EE;
@@ -121,7 +123,7 @@ main img {
   h3 {
     font-size: 28px;
   }
-  a {
+  .githubprojects a {
     font-size: 24px;
   }
   p {
@@ -129,7 +131,7 @@ main img {
   }
 }
 @media screen and (min-width: 900px) {
-  a {
+  .githubprojects a {
     font-size: 26px;
   }
   p {
