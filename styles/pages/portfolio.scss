@@ -13,10 +13,48 @@ main {
     color: white;
     margin: 0;
 
+    a {
+        text-decoration: none;
+        color: yellow;
+    }
+
+    p {
+        margin: 15px;
+    }
+
 
     img {
         width: 10%;
         height: auto;
         padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    h2 {
+        font-size: 34px;
+        text-decoration: underline;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    a {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    a {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 24px
     }
 }

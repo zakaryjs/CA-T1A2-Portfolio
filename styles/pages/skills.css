@@ -167,10 +167,11 @@ main .hobbies {
     border-radius: 20%;
     margin-top: 30%;
   }
-  a button {
+  main a button {
     border-radius: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 28px;
     background-color: #ADD8E6 !important;
   }
 }/*# sourceMappingURL=skills.css.map */
