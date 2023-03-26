@@ -87,6 +87,12 @@ main {
             }
         }
     }
+
+    .jumbotron {
+        .jumbotron-texttwo {
+            font-size: 28px;
+        }
+    }
 }
 
 @media screen and (min-width: 900px) {

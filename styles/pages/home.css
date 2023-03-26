@@ -162,6 +162,9 @@ main .buttons .portfoliobutton {
   main .buttons .portfoliobutton {
     font-size: 30px;
   }
+  .jumbotron .jumbotron-texttwo {
+    font-size: 28px;
+  }
 }
 @media screen and (min-width: 900px) {
   .jumbotron img {
