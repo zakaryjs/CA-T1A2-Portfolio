@@ -1,0 +1,45 @@
+footer {
+    text-align: center;
+    background-color: $secondary-color;
+    padding: 10px;
+    border: 1px solid white;
+
+
+    .socials {
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            color: $primary-color;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+    }
+
+    .copyright {
+        color: $primary-color;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        .socials {
+            font-size: 24px;
+        }
+        .copyright {
+            font-size: 24px;
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    footer {
+        .socials {
+            font-size: 30px;
+        }
+        .copyright {
+            font-size: 30px;
+        }
+    }
+}

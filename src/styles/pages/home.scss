@@ -1,0 +1,123 @@
+@import "../defaults/color";
+@import "../components/header";
+@import "../components/footer";
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 10px;
+    border: 1px solid white;
+
+
+    .buttons {
+        .aboutbutton {
+            color: black;
+            border-radius: 8px;
+            background-color: #FFFBC8 !important;
+            margin: 20px;
+            border: 2px solid white;
+            font-size: 18px;
+        }
+        .skillsbutton {
+            color: black;
+            border-radius: 8px;
+            background-color: #ADD8E6 !important;
+            margin: 20px;
+            border: 2px solid white;
+            font-size: 18px;
+        }
+        .portfoliobutton {
+            color: black;
+            border-radius: 8px;
+            background-color: #CBC3E3 !important;
+            margin: 20px;
+            border: 2px solid white;
+            font-size: 18px;
+        }
+    }
+    }
+
+.jumbotron {
+    img {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .jumbotron-text {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .jumbotron-subtext {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .jumbotron-texttwo {
+        color: #ADD8E6;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .jumbotron {
+        .jumbotron-text {
+            font-size: 28px;
+        }
+        .jumbotron-subtext {
+            font-size: 28px;
+        }
+    }
+    
+    main {
+        .buttons {
+            .aboutbutton {
+                font-size: 30px;
+            }
+            .skillsbutton {
+                font-size: 30px;
+            }
+            .portfoliobutton {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .jumbotron {
+        img {
+            height: 800px;
+        }
+        .jumbotron-text {
+            font-size: 32px;
+        }
+
+        .jumbotron-texttwo {
+            font-size: 32px;
+        }
+
+        .jumbotron-subtext {
+            font-size: 32px;
+        }
+    }
+
+    main {
+        .buttons {
+            .aboutbutton {
+                font-size: 24px;
+            }
+            .skillsbutton {
+                font-size: 24px;
+            }
+            .portfoliobutton {
+                font-size: 24px;
+            }
+        }
+    }
+}
