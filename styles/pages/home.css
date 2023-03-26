@@ -140,6 +140,11 @@ main .buttons .portfoliobutton {
   font-size: 18px;
   font-weight: bold;
 }
+.jumbotron .jumbotron-texttwo {
+  color: #ADD8E6;
+  font-size: 18px;
+  font-weight: bold;
+}
 
 @media screen and (min-width: 600px) {
   .jumbotron .jumbotron-text {
@@ -163,6 +168,9 @@ main .buttons .portfoliobutton {
     height: 800px;
   }
   .jumbotron .jumbotron-text {
+    font-size: 32px;
+  }
+  .jumbotron .jumbotron-texttwo {
     font-size: 32px;
   }
   .jumbotron .jumbotron-subtext {

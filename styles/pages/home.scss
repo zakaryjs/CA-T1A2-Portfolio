@@ -11,6 +11,7 @@ main {
     padding-bottom: 10px;
     border: 1px solid white;
 
+
     .buttons {
         .aboutbutton {
             color: black;
@@ -55,6 +56,12 @@ main {
         font-size: 18px;
         font-weight: bold;
     }
+
+    .jumbotron-texttwo {
+        color: #ADD8E6;
+        font-size: 18px;
+        font-weight: bold;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -90,6 +97,11 @@ main {
         .jumbotron-text {
             font-size: 32px;
         }
+
+        .jumbotron-texttwo {
+            font-size: 32px;
+        }
+
         .jumbotron-subtext {
             font-size: 32px;
         }
