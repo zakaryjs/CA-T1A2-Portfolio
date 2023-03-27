@@ -33,8 +33,12 @@ main {
 @media screen and (min-width: 600px) {
     .githubonpage {
         h2 {
+        margin-top: 20px;
         font-size: 34px;
         text-decoration: underline;
+        }
+        a {
+            margin-top: 15px;
         }
     }
 
@@ -44,10 +48,12 @@ main {
         }
 
         a {
+            margin-top: 20px;
             font-size: 24px;
         }
 
         p {
+            margin-top: 15px;
             font-size: 20px;
         }
     }
