@@ -120,9 +120,15 @@ main #submit {
     font-size: 22px;
   }
   .contactformelements {
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  .contactforminput {
+    height: 20px;
   }
   main .formbuttonsubmit #submit {
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 22px;
   }
 }
