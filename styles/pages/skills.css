@@ -100,10 +100,12 @@ main {
   padding-bottom: 10px;
   border: 1px solid white;
 }
+/* Gives heading underline */
 main h1 {
   color: white;
   text-decoration: underline;
 }
+/* Creates space */
 main .skillstext p {
   padding: 20px;
   color: white;
@@ -111,12 +113,14 @@ main .skillstext p {
 main .skillstext h1 {
   color: white;
 }
+/* Makes image circular */
 main .skillstext img {
   width: 50%;
   height: auto;
   border-radius: 50%;
   margin-top: 5%;
 }
+/* Gives button for resume shape and colour */
 main a button {
   font-size: 20px;
   border-radius: 8px;
@@ -137,6 +141,7 @@ main .hobbies {
   color: white;
 }
 
+/* Makes text and button larger for tablet */
 @media screen and (min-width: 600px) {
   main .skillstext p {
     font-size: 24px;
@@ -150,6 +155,7 @@ main .hobbies {
     margin-bottom: 10px;
   }
 }
+/* Turns desktop view into two column view */
 @media screen and (min-width: 900px) {
   main {
     -moz-column-count: 2;

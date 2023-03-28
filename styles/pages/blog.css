@@ -100,6 +100,7 @@ main {
   padding-bottom: 10px;
   border: 1px solid white;
 }
+/* Makes blog hyperlinks yellow */
 main a {
   text-decoration: none;
   color: yellow;
@@ -107,11 +108,13 @@ main a {
 main section {
   margin: 15px;
 }
+/* Gives blog heading underline */
 main section .blogmain {
   color: white;
   margin-bottom: 15px;
   text-decoration: underline;
 }
+/* Each individual blog post has white text, with reasonably sized images. */
 main section .blogpost1 {
   color: white;
 }
@@ -148,6 +151,7 @@ main section .blogpost5 img {
   height: auto;
 }
 
+/* Makes text larger for tablet breakpoint. */
 @media screen and (min-width: 600px) {
   h1 {
     font-size: 32px;
@@ -203,6 +207,9 @@ main section .blogpost5 img {
     font-size: 22px;
   }
 }
+
+/* Makes text larger for desktop breakpoint and uses column design. */
+
 @media screen and (min-width: 900px) {
   main {
     -moz-column-count: 2;

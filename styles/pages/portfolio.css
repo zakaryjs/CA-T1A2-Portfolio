@@ -102,6 +102,7 @@ main {
   color: white;
   margin: 0;
 }
+/* Makes hyperlinks yellow */
 main a {
   text-decoration: none;
   color: yellow;
@@ -114,7 +115,7 @@ main img {
   height: auto;
   padding-bottom: 10px;
 }
-
+/* Makes text larger for tablet breakpoint */
 @media screen and (min-width: 600px) {
   .githubonpage h2 {
     margin-top: 20px;
@@ -136,6 +137,8 @@ main img {
     font-size: 20px;
   }
 }
+/* Makes text larger for desktop breakpoint */
+
 @media screen and (min-width: 900px) {
   .githubprojects a {
     font-size: 26px;

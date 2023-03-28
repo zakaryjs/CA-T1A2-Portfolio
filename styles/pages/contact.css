@@ -102,6 +102,7 @@ main {
   color: white;
   margin: 0;
 }
+/* Gives main heading, label text and button spacing */
 main h1 {
   text-decoration: underline;
 }
@@ -111,6 +112,7 @@ main p {
 main #submit {
   margin-top: 10px;
 }
+/* Makes text larger for tablet breakpoint */
 
 @media screen and (min-width: 600px) {
   h1 {
@@ -132,6 +134,8 @@ main #submit {
     font-size: 22px;
   }
 }
+/* Makes text larger for desktop breakpoint */
+
 @media screen and (min-width: 900px) {
   p {
     font-size: 24px;

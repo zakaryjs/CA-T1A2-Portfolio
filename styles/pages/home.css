@@ -100,6 +100,7 @@ main {
   padding-bottom: 10px;
   border: 1px solid white;
 }
+/* Gives buttons colour, circular shape and space */
 main .buttons .aboutbutton {
   color: black;
   border-radius: 8px;
@@ -145,6 +146,7 @@ main .buttons .portfoliobutton {
   font-size: 18px;
   font-weight: bold;
 }
+/* Makes text larger for tablet breakpoint */
 
 @media screen and (min-width: 600px) {
   .jumbotron .jumbotron-text {
@@ -166,6 +168,8 @@ main .buttons .portfoliobutton {
     font-size: 28px;
   }
 }
+/* Makes text larger for desktop breakpoint */
+
 @media screen and (min-width: 900px) {
   .jumbotron img {
     height: 800px;

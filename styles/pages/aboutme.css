@@ -100,6 +100,7 @@ main {
   padding-bottom: 10px;
   border: 1px solid white;
 }
+/* Gives heading white colour and underline */
 main h1 {
   color: white;
   text-decoration: underline;
@@ -115,6 +116,7 @@ main .twocolumn img {
   height: auto;
   border-radius: 50%;
 }
+/* Makes text larger for tablet breakpoint. */
 
 @media screen and (min-width: 600px) {
   main h1 {
@@ -125,6 +127,8 @@ main .twocolumn img {
     padding: 15px;
   }
 }
+/* Makes text larger for desktop breakpoint and creates column view. */
+
 @media screen and (min-width: 900px) {
   main {
     -moz-column-count: 2;
