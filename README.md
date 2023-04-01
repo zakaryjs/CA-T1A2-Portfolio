@@ -12,7 +12,7 @@ https://zakarysutherland.netlify.app/index.html
 https://github.com/zakaryjs/T1A2---Portfolio
 
 ### Presentation Video
-Insert link here. (YouTube)
+https://www.youtube.com/watch?v=4lsOMhpauPU
 
 <hr>
 
